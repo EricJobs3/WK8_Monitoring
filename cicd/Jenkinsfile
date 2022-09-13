@@ -17,7 +17,7 @@ pipeline {
         AWS_CRED        = 'AWS_JR8' //Change to yours
         OwnerEmail      = 'ericjobs3@gmail.com' //Change to yours
         S3BucketName    = 'ericjobs-jr8-wk8' //Change to yours, used to save cfn yml files larger than 50KB
-        SecurityGroupID = 'sg-0b58903923fa5632d' //Change to your default VPC's default security group ID
+        SecurityGroupID = 'sg-0947e675dd529b842' //Change to your default VPC's default security group ID
         JenkinsServer   = 'jenkins.westus3.cloudapp.azure.com'   //Change to your JenkinsServer URL
         AWS_REGION      = 'ap-southeast-2'
         VPCStackName    = 'VPCALBStack'
