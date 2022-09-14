@@ -2,7 +2,7 @@ def Exporter1_IP
 def Exporter2_IP
 pipeline {
     agent{
-        lable 'main'
+        label 'main'
     }
     parameters {
         booleanParam defaultValue: false, name: 'blCreateVPC'
