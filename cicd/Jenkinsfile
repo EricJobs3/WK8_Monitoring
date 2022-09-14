@@ -1,7 +1,9 @@
 def Exporter1_IP
 def Exporter2_IP
 pipeline {
-    agent any
+    agent{
+        lable 'main'
+    }
     parameters {
         booleanParam defaultValue: false, name: 'blCreateVPC'
         booleanParam defaultValue: false, name: 'blCreateInstances'
